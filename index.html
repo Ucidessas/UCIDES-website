@@ -3,55 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="UCIDES - Innovación, Desarrollo y Sostenibilidad">
-    <title>UCIDES - Creatividad y Modernismo</title>
+    <meta name="description" content="UCIDES SAS - Innovación, Desarrollo y Sostenibilidad">
+    <title>UCIDES SAS - Creatividad e Innovación</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Header con animación -->
     <header>
-        <div class="logo">
-            <h1>UCIDES</h1>
-            <p>Unión Creativa de Innovación y Desarrollo Sostenible</p>
+        <div class="header-content">
+            <h1 class="animate">UCIDES SAS</h1>
+            <p class="animate">Unión Creativa de Innovación y Desarrollo Sostenible</p>
+            <a href="#about" class="btn animate">Descubre Más</a>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#about">Sobre Nosotros</a></li>
-                <li><a href="#services">Servicios</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
     </header>
 
-    <section id="hero">
-        <h2>Creatividad, Innovación y Modernismo</h2>
-        <p>Impulsamos el desarrollo tecnológico y sostenible para un futuro más brillante.</p>
-        <a href="#about" class="btn">Conoce Más</a>
-    </section>
-
-    <section id="about">
-        <h2>¿Qué es UCIDES?</h2>
-        <p>Somos una comunidad de líderes apasionados por la innovación y el desarrollo sostenible. UCIDES busca construir soluciones tecnológicas que transformen la sociedad, guiadas por la creatividad y la colaboración.</p>
-    </section>
-
-    <section id="services">
-        <h2>Nuestros Servicios</h2>
-        <div class="service-card">
-            <h3>Consultoría Tecnológica</h3>
-            <p>Proveemos soluciones innovadoras para impulsar tu empresa al futuro digital.</p>
-        </div>
-        <div class="service-card">
-            <h3>Capacitación y Formación</h3>
-            <p>Capacitamos a líderes y equipos en las últimas tecnologías y metodologías sostenibles.</p>
-        </div>
-        <div class="service-card">
-            <h3>Proyectos Sostenibles</h3>
-            <p>Desarrollamos proyectos que combinan la tecnología y el desarrollo sustentable.</p>
+    <!-- Sección Sobre Nosotros -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>¿Quiénes Somos?</h2>
+            <p>UCIDES SAS es una empresa líder en soluciones tecnológicas y sostenibles. Trabajamos para crear un mundo donde la innovación, la creatividad y el respeto por el medio ambiente se unan para formar un futuro mejor.</p>
         </div>
     </section>
 
+    <!-- Sección Servicios con interacción de hover -->
+    <section id="services" class="section bg-dark">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <h3>Consultoría Tecnológica</h3>
+                    <p>Soluciones adaptadas a tus necesidades empresariales. Llevamos tu negocio al siguiente nivel con las mejores tecnologías.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Desarrollo Sostenible</h3>
+                    <p>Proyectos y estrategias que se enfocan en el desarrollo sostenible y la responsabilidad social corporativa.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Innovación y Capacitación</h3>
+                    <p>Capacita a tus equipos con las últimas tendencias tecnológicas para mantenerlos a la vanguardia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>Ponte en contacto con nosotros para saber más sobre cómo podemos ayudarte a innovar y crecer.</p>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Nombre Completo" required>
+                <input type="email" name="email" placeholder="Correo Electrónico" required>
+                <textarea name="message" placeholder="Tu Mensaje" required></textarea>
+                <button type="submit" class="btn">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>© 2024 UCIDES - Todos los derechos reservados.</p>
+        <p>&copy; 2024 UCIDES SAS - Todos los derechos reservados</p>
         <div class="social-icons">
             <a href="#"><img src="icons/facebook.svg" alt="Facebook"></a>
             <a href="#"><img src="icons/twitter.svg" alt="Twitter"></a>
@@ -59,6 +71,7 @@
         </div>
     </footer>
 
+    <!-- JavaScript para el formulario -->
     <script src="script.js"></script>
 </body>
 </html>

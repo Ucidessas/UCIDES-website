@@ -114,6 +114,79 @@ nav a:hover {
 }
 */
 
+
+.expertise-section {
+    padding: 50px;
+    background-color: #f4f4f4;
+  }
+  
+  .expertise-section h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .expertise-item {
+    text-align: center;
+    margin-bottom: 40px;
+    transition: transform 0.3s ease; /* Añade una transición suave al hover */
+  }
+  
+  .expertise-item:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño del contenedor al pasar el mouse */
+  }
+  
+  .expertise-item img {
+    width: 20%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Añade bordes redondeados a las imágenes */
+    transition: transform 0.3s ease; /* Añade una transición suave al hover de la imagen */
+  }
+  
+  .expertise-item img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al pasar el mouse */
+  }
+  
+  .expertise-item h3 {
+    font-size: 24px;
+    color: #007BFF;
+    margin-bottom: 10px;
+    font-weight: bold; /* Añade negrita al título */
+    transition: color 0.3s ease; /* Añade una transición suave al hover del texto */
+  }
+  
+  .expertise-item h3:hover {
+    color: #0056b3; /* Cambia el color del texto al pasar el mouse */
+  }
+  
+  .expertise-item p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5; /* Mejora la legibilidad del texto */
+  }
+  
+  /* Estilo adicional para un botón atractivo */
+  .expertise-item .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Transición suave para el botón */
+    margin-top: 15px; /* Espaciado entre el texto y el botón */
+  }
+  
+  .expertise-item .cta-button:hover {
+    background-color: #0056b3; /* Cambia el color del botón al pasar el mouse */
+  }
+  
+
 .product-card {
     background-color: #fff;
     padding: 5px;

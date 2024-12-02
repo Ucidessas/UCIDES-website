@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+
     // Highlight menu links based on scroll position
     window.addEventListener('scroll', () => {
         let scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;

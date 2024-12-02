@@ -138,7 +138,7 @@ nav a:hover {
   }
   
   .expertise-item img {
-    width: 40%;
+    width: 20%;
     max-width: 600px;
     height: auto;
     margin-bottom: 20px;
@@ -370,3 +370,53 @@ strong {
     transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
 }
 
+
+.experiencia {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container1 {
+    text-align: center;
+    width: 80%;
+}
+
+.cards-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card1 {
+    background: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.card1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card1 h2 {
+    margin: 0;
+    color: #333;
+}
+
+.card1 p {
+    font-size: 1em;
+    color: #666;
+}
